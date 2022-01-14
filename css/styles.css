@@ -1,0 +1,192 @@
+/* General */
+
+html {
+    font: arial;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+
+/* Header */
+
+.header-container {
+    background-color: #fff;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding: 10px 0;
+}
+.header-container div{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 0 20px;
+}
+
+#header-title {
+    color: #F6810A;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+/* Banner */
+
+.banner-container {
+    background-color: #121110;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-container .banner-container__box{
+    background-color: #F6810A;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 85%;
+    height: 500px;
+}
+
+.banner-container .banner-container__box .img_usr{
+    height: inherit;
+}
+
+.banner-text {
+    color: #fff;
+    padding: 30px;
+}
+
+.banner-text p {
+    padding-bottom: 30px;
+}
+
+.text-italic {
+    font-size: 16px;
+    font-style: italic;
+    width: 272px;
+}
+
+.banner-text h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+    word-wrap: break-word;
+    width: 152px;
+    line-height: 48px;
+}
+
+.click-box {
+    background-color: #fff;
+    width: 272px;
+    font-size: 14px;
+    border: 1px solid transparent;
+    color: #F6810A;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 36px;
+}
+
+.click-box p {
+    padding: 0;
+    text-transform: uppercase;
+}
+
+/* mission */
+
+.mission-container {
+    background-color: #F2F6F9;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mission-container .mission-container__box {
+    background-color: #fff;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 500px;
+}
+
+.mission-container .mission-container__box .img_miss {
+    height: inherit;
+}
+
+.mission-text {
+    padding: 50px;
+    width: 272px;
+}
+
+.mission-text h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+#read-more {
+    justify-content: start;
+    padding-top: 16px;
+}
+
+/* slogan */
+
+.slogan-container {
+    background-color: #F6810A;
+    width: 100%;
+}
+
+.slogan-text {
+    margin-top: 30px;
+}
+
+.slogan-text p{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding: 8px;
+}
+
+.pics-container {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pics-container .pics-container__box {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 85%;
+    height: 500px;
+
+}
+
+.pics-container__box .img_mission {
+    height: inherit;
+    padding-right: 20px;
+}
