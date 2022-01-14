@@ -32,7 +32,7 @@ html {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    padding: 0 20px;
+    padding: 0 65px;
 }
 
 #header-title {
@@ -59,7 +59,7 @@ html {
     flex-flow: row;
     justify-content: flex-start;
     align-items: center;
-    width: 85%;
+    width: 90%;
     height: 500px;
 }
 
@@ -126,7 +126,7 @@ html {
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-    width: 85%;
+    width: 90%;
     height: 500px;
 }
 
@@ -154,6 +154,7 @@ html {
 .slogan-container {
     background-color: #F6810A;
     width: 100%;
+    height: 550px;
 }
 
 .slogan-text {
@@ -168,7 +169,7 @@ html {
 }
 
 .pics-container {
-    height: 600px;
+    height: 420px;
     width: 100%;
     display: flex;
     flex-flow: row;
@@ -176,17 +177,84 @@ html {
     align-items: center;
 }
 
-.pics-container .pics-container__box {
+.row {
     display: flex;
-    flex-flow: row;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 85%;
-    height: 500px;
-
+    width: 90%;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 10px;
 }
 
-.pics-container__box .img_mission {
+.column img{
+    width: 100%;
+}
+
+/* info section */
+
+.info {
+    background-color: #fff;
+    width: 100%;
+    height: 265px;
+    position: relative;
+}
+
+.info-background {
+    background-color: #F2F6F9;
+    height: 265px;
+    width: 432px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.info-text {
+    width: 90%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Function page */
+
+.function-container {
+    width: 100%;
+    background-color: #fff;
+    height: 700px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-box {
+    height: 300px;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+}
+
+.title-box .img_miss{
     height: inherit;
-    padding-right: 20px;
+}
+
+.function-box {
+    height: 300px;
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+}
+
+.function-box .img_miss{
+    height: inherit;
 }
