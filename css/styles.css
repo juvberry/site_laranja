@@ -102,6 +102,7 @@ html {
     align-items: center;
     height: 36px;
     transition: .5s;
+    cursor: pointer;
 }
 
 .click-box p {
@@ -533,6 +534,13 @@ html {
 }
 
 .copyright {
-    text-align: center;
     padding-bottom: 10px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright a {
+    margin-left: 4px;
 }
